@@ -1,12 +1,10 @@
 REPOSITORIO GIT - MERCADO LOCAL FLASK - GA7 AA3 EV01
 
-URL de clonacion del repositorio proporcionada por el aprendiz:
-https://github.com/TU_USUARIO/mercado-local-flask.git/
+URL de clonacion:
+https://github.com/Robinson222/mercado-local-flask.git
 
 Pagina web del repositorio:
-https://github.com/TU_USUARIO/mercado-local-flask
+https://github.com/Robinson222/mercado-local-flask
 
-Si TU_USUARIO es un marcador de ejemplo, reemplazelo por su usuario real de GitHub. Para clonar, use:
-  git clone https://github.com/TU_USUARIO/mercado-local-flask.git/ mercado-local-flask
-
-El Git bundle portable Mercado_Local_Flask.gitbundle tambien se incluye en la raiz del ZIP.
+Clonar con:
+  git clone https://github.com/Robinson222/mercado-local-flask.git mercado-local-flask
