@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Productos artesanales de productores locales.">
+  <title>Mercado Local | Compra con propósito</title><link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="Mercado Local, inicio"><span class="brand-mark">M</span> mercado<span>local</span></a><a class="cart-link" href="#pedido">Tu carrito <span id="cart-count">0</span></a></header>
+  <main>
+    <section class="hero"><div class="hero-copy"><p class="eyebrow">HECHO CERCA, SE SIENTE MEJOR</p><h1>Lo bueno de<br>nuestra tierra.</h1><p>Una selección de productos artesanales, hechos con cuidado por productores locales.</p><a class="button button-dark" href="#catalogo">Explorar productos <span>↓</span></a></div><div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="art-card">Cosecha<br><b>local</b><small>con mucho cariño</small></div><div class="leaf leaf-one">✳</div><div class="leaf leaf-two">✳</div></div></section>
+    <section class="catalog section" id="catalogo"><div class="section-heading"><div><p class="eyebrow">SELECCIÓN DE TEMPORADA</p><h2>Del productor a tu mesa</h2></div><p>Pequeños lotes, grandes sabores.</p></div><div id="products" class="product-grid" aria-live="polite"><p>Cargando productos…</p></div></section>
+    <section class="checkout section" id="pedido"><div class="checkout-intro"><p class="eyebrow">UN BUEN COMIENZO</p><h2>Tu pedido,<br>en unos pasos.</h2><p>Cuéntanos dónde enviar la confirmación. El pago se coordina directamente con el productor.</p></div><div class="order-card"><h3>Resumen de compra</h3><div id="cart-items" class="cart-items"><p>Tu carrito está vacío.</p></div><div class="total-row"><span>Total estimado</span><strong id="cart-total">$0</strong></div><form id="order-form"><label for="customer">Nombre</label><input id="customer" name="customer" maxlength="80" required autocomplete="name" placeholder="Tu nombre"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" maxlength="254" required autocomplete="email" placeholder="nombre@correo.com"><button class="button button-dark submit" type="submit">Confirmar pedido <span>→</span></button><p id="feedback" class="feedback" role="status"></p></form><p class="privacy">Al confirmar, registramos tu pedido para esta demostración.</p></div></section>
+  </main>
+  <footer><a class="brand" href="/">mercado<span>local</span></a><p>Un mercado más cercano. Proyecto académico · 2026</p></footer>
+</body></html>
+
