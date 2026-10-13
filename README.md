@@ -53,7 +53,7 @@ Los pedidos se limitan a 16 KB, se rechazan origenes distintos del host y se dev
 
 ## Control de versiones
 
-El codigo se administra con Git en la rama `main`. El ZIP incluye `ENLACE_REPOSITORIO.txt` y un Git bundle portable. El archivo documenta que no existe un URL remoto publico y explica como publicar el bundle en GitHub o GitLab.
+El codigo se administra con Git en la rama `main`. El ZIP incluye `ENLACE_REPOSITORIO.txt` con el URL proporcionado por el aprendiz: https://github.com/TU_USUARIO/mercado-local-flask.git/. Si `TU_USUARIO` es solo un marcador, debe cambiarse por el usuario real de GitHub. Tambien se incluye un Git bundle portable.
 
 ## Verificacion
 
@@ -64,3 +64,4 @@ No se incluyen pruebas automatizadas en esta evidencia. El entorno que genero el
 - Documentacion oficial Flask: https://flask.palletsprojects.com/en/stable/
 - Application Factories: https://flask.palletsprojects.com/en/stable/patterns/appfactories/
 - Blueprints: https://flask.palletsprojects.com/en/stable/blueprints/
+
